@@ -1,0 +1,5 @@
+n = str(input('Digite seu nome completo: ')).strip().upper()
+nome = n.split()
+print(f"Praser em te conheser {nome[0]}")
+print(f"O seu primeiro nome é {nome[0]}")
+print(f"Seu ultimo nome é {nome[len(nome)-1]}")
